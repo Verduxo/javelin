@@ -1,0 +1,64 @@
+.textcolor{
+    display:inline;
+    -webkit-animation: fontcolor 20s infinite;
+    animation: fontcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    font-size: 100px;
+}
+
+
+@keyframes fontcolor {
+    0% {
+        color: #45a3e5
+    }
+
+    30% {
+        color: #66bf39
+    }
+
+    60% {
+        color: #eb670f
+    }
+
+    90% {
+        color: #f35
+    }
+
+    100% {
+        color: #864cbf
+    }
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  
+  }
+
+  
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 30px #f0f,-20px 0 40px #0ff, 20px 0 70px #f0f, -20px 0 20px #0ff, 0 0 20px #fff, 0 0 70px #e60073,0px 0 30px #0ff;
+    }
+    to{
+      text-shadow: 0 0 2px #fff, 0 0 20px #f0f,-30px 0  30px #0ff, 20px 0 80px #f0f, -20px 0 20px #0ff, 0 0 20px #fff, 0 0 70px #e60073,0px 0 20px #0ff;
+
+    }
+  }
+
+.explanation{
+    border: rgba(0,255,0,.75);
+    margin: 40px 5px 5px 5px;
+    align-items: center;
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 2px rgba(0,255,0,.75);
+    border: white;
+    padding: 20px 20px 20px 20px;
+}
+
