@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--FUENTES-->
+    <!--METADATA-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--CSS-->
+        <link rel="stylesheet" href="css/terminal.css"></link>
+        <link rel="stylesheet" href="css/stats.css"></link>
+        <link rel="stylesheet" href="css/main.css"></link>
+        <link rel="stylesheet" href="css/text.css"></link>
+
+
+        
+    <body>
+        
+        <p class="typelike">Javelin, a BotNet deployed By tt-Viic and Verduxo.</p>
+
+        <span class="loginText">login</span>
+
+        <form class="form">
+            <span class="span">username</span>
+            <input class="input" type="text" placeholder="Enter Username" name="username" required>
+
+            <span class="span">password</span>
+            <input class="input" type="password" placeholder="Enter Password" name="password" required>
+            
+            <div class="separador"></div>
+            <button class="button" type="submit">Login</button>   
+        </form>
+        <div class="stats">
+        <img class="stat" src="https://github-readme-stats.vercel.app/api?username=verduxo&show_icons=true&theme=merko&title_color=00ff00">
+        <img class="stat" src="https://github-readme-stats.vercel.app/api?username=tt-viic&show_icons=true&theme=merko&title_color=00ff00">
+        </div>
+
+
+
+        <div class="explanation">
+                <p>hello everyone, we both are junior programmers</p>
+                <p style="text-align: center;"> who really love coding.</p>
+                <p>this ambitious project was made with all of our love</p>
+            <p>we hope that you can reach your aim with our help</p>
+        </div>
+        <script>
+            $(document).scroll(function () {
+                var y = $(this).scrollTop();
+                if (y > 300) {
+                    $('.stat').fadeIn();
+                    $('.explanation').fadeIn();
+                } else {
+                    $('.stat').fadeOut();
+                    $('.explanation').fadeOut();
+                }
+
+            });
+
+        </script>
+    </body>
+</html> 
